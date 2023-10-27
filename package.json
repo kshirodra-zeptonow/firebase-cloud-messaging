@@ -1,5 +1,5 @@
 {
-  "name": "firebase-v9-cloud-messaging",
+  "name": "firebase-cloud-messaging",
   "version": "0.1.0",
   "private": true,
   "scripts": {

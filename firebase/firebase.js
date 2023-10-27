@@ -22,7 +22,7 @@ const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 const subscribeToTopic = async (token) => {
   try {
     const response = await  fetch(
-      "https://9654-2406-7400-63-a6f7-54f1-4232-4b9d-43ae.ngrok-free.app/api/firebase/subscribe",
+      "http://localhost:3000/api/firebase/subscribe",
       {
         method: "POST",
         body: JSON.stringify({
